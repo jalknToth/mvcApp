@@ -1,7 +1,6 @@
 <?php
 
-namespace app\core;
-
+namespace core;
 use Request;
 
 class Application
@@ -10,12 +9,12 @@ class Application
     public Request $request;
     public function __construct()
     {
-        $this->router = new Router();
         $this->request = new Request();
+        $this->router = new Router($this->request);
     }
 
     public function run()
     {
-        $this->router->resolve();
+        echo $this->router->resolve();
     }
 }

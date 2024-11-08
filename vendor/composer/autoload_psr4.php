@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'M2\\MvcApp\\' => array($baseDir . '/src'),
+    'core\\' => array($baseDir . '/core'),
 );
