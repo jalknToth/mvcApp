@@ -3,7 +3,7 @@
 namespace core;
 
 use core\Request;
-use Response;
+use core\Response;
 
 class Application
 {
