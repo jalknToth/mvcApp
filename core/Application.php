@@ -2,6 +2,7 @@
 
 namespace core;
 
+use Controller;
 use core\Request;
 use core\Response;
 
@@ -12,6 +13,8 @@ class Application
     public Request $request;
     public Response $response;
     public static Application $app;
+    public Controller $controller;
+
     public function __construct($rootPath)
     {
         self::$ROOT_DIR = $rootPath;

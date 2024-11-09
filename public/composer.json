@@ -1,8 +1,8 @@
 {
-    "name": "m2/mvc-app",
+    "name": "m2/public",
     "autoload": {
         "psr-4": {
-            "app\\": "app/"
+            "M2\\Public\\": "src/"
         }
     },
     "authors": [
@@ -11,6 +11,5 @@
             "email": "alejalkndro@gmail.com"
         }
     ],
-    
     "require": {}
 }
