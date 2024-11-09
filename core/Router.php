@@ -33,7 +33,7 @@ class Router
         $path = $this->request->getPath();
         $method = $this->request->getMethod();
         $callback = $this->routes[$method][$path] ?? false;
-        $controller = new siteController();∫
+        $controller = new siteController();
 
         if ($callback === false){
            $this->response->setStatusCode(404);
