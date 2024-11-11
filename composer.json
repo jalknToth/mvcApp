@@ -2,8 +2,7 @@
     "name": "m2/mvc-app",
     "autoload": {
         "psr-4": {
-            "App\\": "app/",
-            "core\\": "core/"
+            "src\\": "src/"
         }
     },
     "authors": [
